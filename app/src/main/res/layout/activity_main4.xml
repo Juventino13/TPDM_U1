@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main4Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#234123"
+        android:padding="20dp"
+        android:text="Mensaje de etiquetas"
+        android:textColor="#ff0000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+<!--galletas -->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#999999"
+        android:hint="Escribe escribe tu nombre "
+        android:ems="14"
+        android:id="@+id/campotexto"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar EN SD"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:id="@+id/boton"
+        />
+
+  <Spinner
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+     android:entries="@array/estadosrepublica"
+
+/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Autogrardado en memoria de sistema"
+        android:textSize="20dp"
+        />
+    <RadioGroup
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+            android:text="Soltero"
+                android:textSize="20dp"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Casado"
+                android:textSize="20dp"/>
+    </RadioGroup>
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Rotacion"/>
+    <ToggleButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOn="ENVIAR"
+        android:textOff="APAGADO"/>
+</LinearLayout>
