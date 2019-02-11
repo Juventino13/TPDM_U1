@@ -15,7 +15,8 @@
         android:text="Mensaje de etiquetas"
         android:textColor="#ff0000"
         android:textSize="20dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+       android:id="@+id/etiqueta" />
 <!--galletas -->
     <EditText
         android:layout_width="wrap_content"
@@ -40,13 +41,15 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
      android:entries="@array/estadosrepublica"
-
+      android:id="@+id/estado"
 />
     <CheckBox
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Autogrardado en memoria de sistema"
         android:textSize="20dp"
+        android:id="@+id/casilla"
+        android:onClick="nombecualqiera"
         />
     <RadioGroup
 
@@ -72,5 +75,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textOn="ENVIAR"
+        android:id="@+id/boton2"
         android:textOff="APAGADO"/>
 </LinearLayout>
