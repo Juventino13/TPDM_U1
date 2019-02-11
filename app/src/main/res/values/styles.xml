@@ -6,6 +6,17 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+    <style name="etiquetas">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/Naranja</item>
+        <item name="android:background">@color/BlancoTrans</item>
+    </style>
+
+    <style name="campotexto">
+        <item name="android:textSize">20dp</item>
+     <item name="android:ems">7</item>
     </style>
 
 </resources>

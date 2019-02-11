@@ -2,7 +2,7 @@
     <string name="app_name">TPDM_U1_Ejercicio1</string>
     <string-array name="estadosrepublica">
         <item>Selecciona...</item>
-    <item>Colima</item>
+        <item>Colima</item>
         <item>Jalisco</item>
         <item>Nayarit</item>
         <item>Sinaloa</item>

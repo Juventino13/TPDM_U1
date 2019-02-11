@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="@drawable/logan"
+
+
+    tools:context=".Main5Activity">
+
+    <TableRow>
+        <TextView android:text="Usuario:"
+            style="@style/etiquetas"/>
+        <EditText style="@style/campotexto"
+            android:id="@+id/usu"/>
+
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Contraseña" style="@style/etiquetas"/>
+        <EditText style="@style/campotexto"
+            android:inputType="textPassword"
+            android:id="@+id/contrasena"/>
+    </TableRow>
+    <TableRow>
+<Space />
+        <Button android:text="Acceder"
+            android:background="@drawable/redondeado"
+            android:onClick="validar"/>
+
+    </TableRow>
+
+</TableLayout>
